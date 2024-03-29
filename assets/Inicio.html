@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/Favicon/favicon.ico" type="image/x-icon">
+    <title>Dev Mel Plens</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Fonte M PLUs -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100..700&display=swap" rel="stylesheet">
+
+    <!-- Fonte Karla -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=M+PLUS+Code+Latin:wght@100..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Fonte Manjari -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=M+PLUS+Code+Latin:wght@100..700&family=Manjari:wght@100;400;700&display=swap"
+        rel="stylesheet">
+
+</head>
+<style>
+    /* Fontes */
+    .manjari-thin {
+        font-family: "Manjari", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    .karla {
+        font-family: "Karla", sans-serif;
+    }
+
+    .m-plus code {
+        font-family: "M PLUS Code Latin", monospace;
+
+    }
+
+    .bg-body-tertiary {
+        background-color: #ebebeb !important;
+    }
+
+    /* Cor do Fundo */
+    body {
+        background-color: #ebebeb;
+    }
+
+    /* Header/Nav bar */
+    .navbar-nav {
+        margin: auto;
+        display: flex;
+       
+        font-size: 19px;
+        font-family: "Manjari", sans-serif;
+    }
+
+    .Redes_Sociais1 a,
+    .Redes_Sociais2 a {
+        margin-left: 10px;
+    }
+
+    .Redes_Sociais1 {
+        text-align: right;
+        margin: 20px;
+    }
+
+    .Redes_Sociais2 {
+        text-align: center;
+        margin: 20px;
+    }
+
+    /* Conteudo */
+    .linha {
+        border-bottom: 1px solid black;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .Saudacao {
+        margin-left: 100px;
+    }
+
+    pre {
+        font-family: "Karla", sans-serif;
+        font-size: 10px;
+        color: rgb(121, 118, 118);
+    }
+
+    /* Footer */
+    .footer {
+        font-family: "Karla", sans-serif;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .linha2 {
+        border-bottom: 1px solid black;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+        .Saudacao {
+            margin-left: 0;
+        }
+
+        .Redes_Sociais1 {
+            text-align: center;
+            margin: 20px auto;
+        }
+
+        .img-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .col-md-6 {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .img-container img {
+            margin-right: 0;
+        }
+    }
+</style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="../images/Logopreto.png" alt="Logo" width="100" height="100"
+                class="d-inline-block align-text-top">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projeto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Entre em contato</a>
+                    </li>
+                </ul>
+                <div class="Redes_Sociais1">
+                    <a href="https://github.com/MelPLens">
+                        <img src="../images/github.png" alt="Git hub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/mel-plens-angelis/">
+                        <img src="../images/Linkedln.png" alt="Linkedln">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="linha"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="img-container">
+                    <img src="../images/AbelhaPreta.png" alt="Abelha Preta" class="img-fluid">
+                    <div class="Saudacao" style="margin-top: 10px;">
+                        <!-- elemento pre, que é usado para exibir texto pré-formatado, preservando espaços e quebras de linha. -->
+                        <pre>&lt;<span>p</span>&gt;</pre>
+                        <p style="font-size: 20px; margin-bottom: 5px;">Olá, meu nome é</p>
+                        <pre>&lt;<span>/p</span>&gt;</pre>
+
+                        <pre>&lt;<span>h1</span>&gt;</pre>
+                        <h1 style="font-size: 80px; margin-top: 0; margin-bottom: 10px;">Mel Plens</h1>
+                        <pre>&lt;<span>/h1</span>&gt;</pre>
+
+                        <pre>&lt;<span>h2</span>&gt;</pre>
+                        <h2 style="font-size: 30px; margin-top: 0;">Sou desenvolvedora Web Front-End</h2>
+                        <pre>&lt;<span>/h2</span>&gt;</pre>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="img-container">
+                    <img src="../images/Foto Mel.png" alt="Foto Mel" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="linha2"></div>
+
+    <footer>
+        <p class="footer">© 2024 Todos os direitos são reservados.</p>
+        <div class="Redes_Sociais2">
+            <a href="https://github.com/MelPLens">
+                <img src="../images/github.png" alt="Git hub">
+            </a>
+            <a href="https://www.linkedin.com/in/mel-plens-angelis/">
+                <img src="../images/Linkedln.png" alt="Linkedln">
+            </a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript e Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
